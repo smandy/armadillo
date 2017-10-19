@@ -3,3 +3,4 @@
 /example2
 *.o
 /.sconsign.dblite
+*.pgm
