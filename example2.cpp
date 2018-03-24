@@ -26,7 +26,7 @@ int main(int argc, char **argv) {
       std::cout << "Rule is " << rule << std::endl;
       auto str_rand = randomized == 0 ? "r" : "n";
       std::string fn =
-          boost::str(boost::format("rule%03d_%s.pgm") % rule % str_rand);
+          boost::str(boost::format("images/rule%03d_%s.pgm") % rule % str_rand);
       std::ofstream ostr(fn, std::ios::binary);
       ostr << "P2\n";
       ostr << "1000 1000\n";
